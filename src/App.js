@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>E ricorda sempre che Giovanni é il piú bello e Daddinuz fa le fiamme.</p>
       </header>
     </div>
   );
