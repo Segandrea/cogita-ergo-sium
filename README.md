@@ -59,7 +59,7 @@ potrei fare io: [w3schools](https://www.w3schools.com/)
 Struttura del progetto creato nella lezione precedente con il
 comando `create-react-app` :
 
-```
+```tree
 .
 ├── package.json
 ├── package-lock.json
@@ -99,3 +99,22 @@ NB. In questo modo si rimane in *watch* sul progetto.
 Questo vuol dire che ogni volta che si effettua una modifica e si salva un file,
 la pagina web si aggiorna automaticamente modificando il contenuto esposto in
 base alle modifiche effettuate.
+
+## Terza lezione
+
+### Javascript e Typescript
+
+Nella lezione vengono trattati Javascript e Typescript.
+Aggiungo un link ad entrambe le cose in quanto argomenti troppo lunghi
+e non completamente trattati nel corso del video:
+
+* [Javascript](https://it.javascript.info/)
+* [Typescript](https://www.typescripttutorial.net/)
+
+### Interpretazione
+
+Mentre Javascript puó essere interpretato da `node`, per far si che
+Typescript venga interpretato bisogna installare con `npm install`
+o con `npm install -g` oppure usare con `npx` il pacchetto `ts-node`.
+Oppure si puó traspilare da Typescript a Javascript con il comando
+`tsc nome-file.ts` per poi lanciare il risultato con `node`.
